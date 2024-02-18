@@ -85,3 +85,9 @@ VALUES
 (13, 13, '2023-01-13 18:35:00', 'Pending'),
 (14, 14, '2023-01-14 12:25:10', 'Delivered'),
 (15, 15, '2023-01-15 14:25:00', 'Pending');
+
+
+
+-- QUERY SYNTAX--
+SELECT * FROM Employees
+WHERE EmployeeID = 1;
