@@ -1,6 +1,6 @@
 -- STORED PROCEDURES --
 
--- TASK1 --
+-- TASK1 GetMaxQuantity--
 DELIMITER //
 
 CREATE PROCEDURE GetMaxQuantity()
@@ -14,7 +14,7 @@ DELIMITER ;
 CALL GetMaxOrderedQuantity();
 
  
--- TASK2 --
+-- TASK2 GetOrderDetail--
 
 DELIMITER //
 
@@ -31,7 +31,7 @@ DELIMITER ;
  
 CALL GetOrderDetail(1);
  
--- TASK3 --
+-- TASK3 CancelOrder --
 
 DELIMITER //
 
